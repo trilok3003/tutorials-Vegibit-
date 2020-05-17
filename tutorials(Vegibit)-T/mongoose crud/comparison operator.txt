@@ -1,0 +1,8 @@
+$eq	Matches values that are equal to a given value.
+$ne	Matches all values that are not equal to a given value.
+$gt	Matches values that are greater than a given value.
+$gte	Matches values that are greater than or equal to a given value.
+$lt	Matches values that are less than a given value.
+$lte	Matches values that are less than or equal to a given value.
+$in	Matches any of the values contained in an array.
+$nin	Matches none of the values contained in an array.

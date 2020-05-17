@@ -1,0 +1,25 @@
+We’ll have a look at Reference Based Relationships (Normalization)
+ as well as Embedded Documents Relationships (Denormalization).
+
+ Normalization -> Better Consistency
+Requires additional queries
+Provides Consistency
+  examples:
+  
+
+let publisher = {
+    companyName: 'Nintendo'
+}
+let game = {
+    publisher: 'id'
+}
+
+Denormalization -> Better Performance
+Can use a single query for related documents
+Consistency can degrade over time
+
+let game = {
+    publisher: {
+        companyName: 'Nintendo'
+    }
+}
